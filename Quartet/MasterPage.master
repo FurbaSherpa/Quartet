@@ -14,7 +14,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <section class=" is-info is-medium is-dark">
+    <section class=" is-info is-large">
         <div class="hero-head">
           <nav class="navbar is-fixed-top">
             <div class="container">
@@ -61,9 +61,10 @@
   <footer class="footer is-fixed-bottom">
     <div class="container">
       <div class="content has-text-centered">
-        <p>
-          <strong>Made By:</strong><a href="https://github.com/mosuswalks"> Mohamed Abdi</a>
-        </p>
+        <p><strong>&copy; Quartet 2018</strong></p>
+         <p><strong>Made By:</strong><a href="https://github.com/mosuswalks"> Mohamed Abdi | 100-649-804</a></p>
+            
+        
         <p>
           <a class="icon" href="https://github.com/mosuswalks">
             <i class="fab fa-github"></i>

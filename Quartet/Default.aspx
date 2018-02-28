@@ -3,13 +3,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <section class="hero is-info is-medium is-bold">
+    <section class="hero is-large is-bold header-image" style="background-image: url(header_cut.jpg); background-size: auto 100%; background-repeat: no-repeat; background-position:; ">
         <div class="hero-body">
-              <div class="container has-text-centered">
-                <h1 class="title">
+              <div class="container has-text-right">
+                <h1 class="title has-text" style="color: orange; font-size: 3em">
                     Welcome to Quartet
                 </h1>
-                <h2 class="subtitle">
+                <h2 class="subtitle" style="color: deepskyblue">
                     The new standard in Barbering.
                 </h2>
               </div>
