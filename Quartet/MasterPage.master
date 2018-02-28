@@ -14,12 +14,12 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <section class=" is-info is-large">
+    <section class="hero is-light is-large">
         <div class="hero-head">
-          <nav class="navbar is-fixed-top">
+          <nav class="navbar">
             <div class="container">
               <div class="navbar-brand">
-                <a class="navbar-item" href="/home">Quartet</a>
+                <a class="navbar-item is-info" href="/home"><i class="fas fa-cut"></i> &nbsp;<strong>Quartet</strong></a>
                 <span class="navbar-burger burger" data-target="navbarMenu">
                   <span></span>
                   <span></span>
@@ -31,10 +31,10 @@
                   <a class="navbar-item is-active" href="/home">
                     Home
                   </a>
-                  <a class="navbar-item">
+                  <a class="navbar-item" href="/services">
                     Services
                   </a>
-                  <a class="navbar-item">
+                  <a class="navbar-item" href="/about">
                     About Us
                   </a>
                   <span class="navbar-item">

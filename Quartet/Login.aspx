@@ -15,10 +15,12 @@
                   <img src="quartet_logo.png" width="128" height="128">
                 </figure>
                 <form>
+
                   <div class="field">
-                    <div class="control">
+                    <div class="control" id="loginEmail">
                       <input class="input is-large" type="email" placeholder="Your Email" autofocus="">
                     </div>
+           
                   </div>
 
                   <div class="field">
@@ -26,6 +28,7 @@
                       <input class="input is-large" type="password" placeholder="Your Password">
                     </div>
                   </div>
+
                   <div class="field">
                     <label class="checkbox">
                       <input type="checkbox">
