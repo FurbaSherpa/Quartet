@@ -14,12 +14,12 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <section class="hero is-light is-large">
+    <section class="hero is-white">
         <div class="hero-head">
           <nav class="navbar">
             <div class="container">
               <div class="navbar-brand">
-                <a class="navbar-item is-info" href="/home"><i class="fas fa-cut"></i> &nbsp;<strong>Quartet</strong></a>
+                <a class="navbar-item is-info" href="/home"><i class="fas fa-cut"></i> &nbsp;Quartet</a>
                 <span class="navbar-burger burger" data-target="navbarMenu">
                   <span></span>
                   <span></span>
@@ -58,13 +58,11 @@
     </asp:ContentPlaceHolder>
    
   </form>
-  <footer class="footer is-fixed-bottom">
+  <footer class="footer is-fixed-bottom"> 
     <div class="container">
       <div class="content has-text-centered">
         <p><strong>&copy; Quartet 2018</strong></p>
          <p><strong>Made By:</strong><a href="https://github.com/mosuswalks"> Mohamed Abdi | 100-649-804</a></p>
-            
-        
         <p>
           <a class="icon" href="https://github.com/mosuswalks">
             <i class="fab fa-github"></i>

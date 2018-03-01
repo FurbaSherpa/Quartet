@@ -44,6 +44,7 @@
         routes.MapPageRoute("About Us", "about", "~/About.aspx");
         routes.MapPageRoute("FeedBack", "feedback", "~/FeedBack.aspx");
         routes.MapPageRoute("Confirmation", "feedback/confirmation", "~/FeedBackConfirmation.aspx");
+        routes.MapPageRoute("Signup", "signup", "~/Signup.aspx");
     }
 
 </script>

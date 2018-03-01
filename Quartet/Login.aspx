@@ -9,7 +9,7 @@
           <div class="container has-text-centered">
             <div class="column is-4 is-offset-4">
               <h3 class="title has-text-grey">Login</h3>
-              <p class="subtitle has-text-grey">Please login to proceed.</p>
+              <p class="subtitle has-text-">Please login to proceed.</p>
               <div class="box">
                 <figure class="avatar">
                   <img src="quartet_logo.png" width="128" height="128">
@@ -39,7 +39,7 @@
                 </form>
               </div>
               <p class="has-text-grey">
-                <a href="../">Sign Up</a> &nbsp;·&nbsp;
+                <a href="/signup">Register</a> &nbsp;·&nbsp;
                 <a href="../">Forgot Password</a> &nbsp;·&nbsp;
                 <a href="../">Need Help?</a>
               </p>

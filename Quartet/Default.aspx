@@ -3,10 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <section class="hero is-large is-bold header-image" style="background-image: url(cut_image.jpeg); background-size: cover; background-repeat: no-repeat; background-position: center; ">
+    <section class="hero is-large is-bold header-image" style="background-image: url(beard_trim.jpg); background-size: cover; background-repeat: no-repeat; background-position: top; ">
         <div class="hero-body">
               <div class="container has-text-left">
-                <h1 class="title" style="color: orange; font-size: 3em"> <!--REMOVE STYLING LATER -->
+                <h1 class="title is-size-1" style="color: orange;"> <!--REMOVE STYLING LATER -->
                     Welcome to Quartet
                 </h1>
                 <h2 class="subtitle has-text-info">
