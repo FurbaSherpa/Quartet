@@ -29,13 +29,15 @@
     </div>
 
     <section class="container">
+
         <div class="columns">
+
             <div class="column is-6">
                 <div class="card box">
                     <div class="card-image">
                         <figure class="image">
                             <figure class="image">
-                            <img src="fade_cut.jpg" />
+                            <img src="cut_image.jpeg" />
                         </figure>
                         </figure>
                     </div>
@@ -47,6 +49,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="column is-6">
                 <div class="card box">
                     <div class="card-image">
@@ -62,7 +65,9 @@
                     </div>
                 </div>
             </div>
+
         </div>
+
         <div class="columns">
             <div class="column is-6">
                 <div class="card box">
