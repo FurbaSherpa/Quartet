@@ -20,7 +20,7 @@
                      <div class="control">
                         <asp:Label ID="userName_lbl" Cssclass="label" runat="server" Text="Username"></asp:Label>
                         <asp:TextBox ID="userName_txt" Cssclass="input is-medium" runat="server"></asp:TextBox>
-                        <asp:RequiredFieldValidator Cssclass="help is-danger has-text-weight-semibold" ID="RequiredFieldValidator1" runat="server" ErrorMessage="You must enter a Username" ControlToValidate="userName_txt"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator Cssclass="help is-danger has-text-weight-semibold" ID="RequiredFieldValidator1" runat="server" ErrorMessage="Username is required." ControlToValidate="userName_txt" Display="None"></asp:RequiredFieldValidator>
                     </div>
                   </div>
                     
@@ -32,7 +32,8 @@
                         <asp:TextBox ID="contactNumber_txt" Cssclass="input is-medium" runat="server" MaxLength="13" ReadOnly="False"></asp:TextBox>
                         <span class="icon is-small is-left"><i class="fas fa-phone"></i></span>
                         </p>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" Cssclass="help is-danger has-text-weight-semibold" runat="server" ErrorMessage="Phone Numbers must be in the format of 416-555-5555" ControlToValidate="contactNumber_txt" ValidationExpression="^[2-9]\d{2}-\d{3}-\d{4}$"></asp:RegularExpressionValidator><asp:RequiredFieldValidator ID="RequiredFieldValidator2" CssClass="help is-danger has-text-weight-semibold" runat="server" ErrorMessage="A contact number is required." ControlToValidate="contactNumber_txt"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" Cssclass="help is-danger has-text-weight-semibold" runat="server" ErrorMessage="Contact Number must be in the format of 416-555-5555" ControlToValidate="contactNumber_txt" ValidationExpression="^[2-9]\d{2}-\d{3}-\d{4}$" Enabled="True" SetFocusOnError="True" Display="None">
+                        </asp:RegularExpressionValidator><asp:RequiredFieldValidator ID="RequiredFieldValidator2" CssClass="help is-danger has-text-weight-semibold" runat="server" ErrorMessage="Contact Number is required." ControlToValidate="contactNumber_txt" Display="None"></asp:RequiredFieldValidator>
                         
                     </div>
                   </div>
@@ -44,7 +45,7 @@
                             <asp:TextBox ID="email_txt" Cssclass="input is-medium" runat="server" ReadOnly="False"></asp:TextBox>
                             <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
                         </p>
-                        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" Cssclass="help is-danger has-text-weight-semibold" runat="server" ErrorMessage="You have entered an invalid e-mail address. Please try again." ValidationExpression="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" ControlToValidate="email_txt"></asp:RegularExpressionValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" Cssclass="help is-danger has-text-weight-semibold" runat="server" ErrorMessage="You have entered an invalid e-mail address." ValidationExpression="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" ControlToValidate="email_txt" Display="None"></asp:RegularExpressionValidator>
                     </div>
 
                   </div>
@@ -57,18 +58,20 @@
                         <asp:TextBox ID="password_txt" CssClass="input is-medium" type="password" runat="server"></asp:TextBox>
                         <span class="icon is-small is-left"><i class="fas fa-lock"></i></span>
                       </p>
-                      <strong><asp:RegularExpressionValidator ID="RegularExpressionValidator3" CssClass="help is-danger has-text-weight-semibold" runat="server" ErrorMessage="Passwords must be between 8 to 16 characters and must contain a digit and a ! or *" ControlToValidate="password_txt" ValidationExpression="^([a-zA-Z0-9@*#]{8,15})$" Font-Italic="False"></asp:RegularExpressionValidator></strong>
+                      <asp:RegularExpressionValidator ID="RegularExpressionValidator3" CssClass="help is-danger has-text-weight-semibold" runat="server" ErrorMessage="Passwords must be between 8 to 16 characters and must contain a digit and a ! or *" ControlToValidate="password_txt" ValidationExpression="^([a-zA-Z0-9@*#]{8,15})$" Font-Italic="False" Display="None"></asp:RegularExpressionValidator>
                       </div>
                   </div>
 
-                    
-                  
-                  <button class="button is-block is-info is-large is-fullwidth">Register</button>
+                    <asp:ValidationSummary ID="ValidationSummary1" CssClass="help is-danger has-text-weight-bold has-text-left" runat="server" DisplayMode="BulletList"/>
+                    <br />
+
+                    <asp:button ID="signUpBtn" runat="server" cssclass="button is-block is-info is-large is-fullwidth" text="Sign up" OnClick="SignUpBtn_Click" />
                 </form>
+
               </div>
               <p class="has-text-grey">
-                <a href="/">Login</a> &nbsp;·&nbsp;
-                <a href="../">Forgot Password</a> &nbsp;·&nbsp;
+                <a href="/login">Login</a>
+                &nbsp;·&nbsp;
                 <a href="../">Need Help?</a>
               </p>
             </div>

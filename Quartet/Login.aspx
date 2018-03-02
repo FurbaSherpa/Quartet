@@ -12,20 +12,27 @@
               <p class="subtitle has-text-">Please login to proceed.</p>
               <div class="box">
                 <figure class="avatar">
-                  <img src="quartet_logo.png" width="128" height="128">
+                  <!--<img src="quartet_logo.png" width="128" height="128">-->
                 </figure>
                 <form>
 
                   <div class="field">
                     <div class="control" id="loginEmail">
-                      <input class="input is-large" type="email" placeholder="Your Email" autofocus="">
+                      <asp:Label ID="loginEmail_lbl" CssClass="label" runat="server" Text="Email"></asp:Label>
+                      <p class="control has-icons-left">
+                        <asp:TextBox ID="loginEmail_txt" CssClass="input is-large" runat="server"></asp:TextBox>
+                      <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
+                      </p>
                     </div>
-           
                   </div>
 
                   <div class="field">
                     <div class="control">
-                      <input class="input is-large" type="password" placeholder="Your Password">
+                        <asp:Label ID="passwordLogin_lbl" runat="server" CssClass="label" Text="Password"></asp:Label>  
+                      <p class="control has-icons-left">
+                          <asp:TextBox ID="passwordLogin_txt" CssClass="input is-large" type="password" runat="server"></asp:TextBox>
+                          <span class="icon is-small is-left"><i class="fas fa-lock"></i></span>
+                      </p>
                     </div>
                   </div>
 
@@ -39,7 +46,7 @@
                 </form>
               </div>
               <p class="has-text-grey">
-                <a href="/signup">Register</a> &nbsp;·&nbsp;
+                <a href="/signup">Sign up</a> &nbsp;·&nbsp;
                 <a href="../">Forgot Password</a> &nbsp;·&nbsp;
                 <a href="../">Need Help?</a>
               </p>
