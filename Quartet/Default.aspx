@@ -26,12 +26,15 @@
     <br />
 
 
-    <div class="container column is-4 has-text-centered">
+    <div class="container is-centered has-text-centered">
+        <div class="column is-6 is-offset-3 ">
       <h2 class="title is-size-2 has-text-weight-bold" style="color: #CF000F;">Stay Groomed, Gentleman.</h2><br>
-      <p class="subtitle is-size-4 has-text-weight-light">Live the little things. A warm lather & straight razor shave. A quality cut by someone who knows what they're doing. Trust us with your trims & leave knowing you look damn good.</p>
+      <p class="subtitle is-size-4 has-text-weight-light"><strong>Live the little things.</strong> A warm lather & straight razor shave. A quality cut by someone who knows what they're doing. Trust us with your trims & leave knowing you look damn good.</p>
+    <hr />
+        </div>
     </div>
 
-    <br />
+
     <br />
 
 
