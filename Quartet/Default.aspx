@@ -22,10 +22,18 @@
         </p>
     </div>
 
-    <div class="container is-4 box">
-      <h2 class="title">Perfect for developers or designers!</h2><br>
-      <p class="subtitle">Vel fringilla est ullamcorper eget nulla facilisi. Nulla facilisi nullam vehicula ipsum a. Neque egestas congue quisque egestas diam in arcu cursus.</p>
+    <br />
+    <br />
+
+
+    <div class="container column is-4 has-text-centered">
+      <h2 class="title is-size-2 has-text-weight-bold" style="color: #CF000F;">Stay Groomed, Gentleman.</h2><br>
+      <p class="subtitle is-size-4 has-text-weight-light">Live the little things. A warm lather & straight razor shave. A quality cut by someone who knows what they're doing. Trust us with your trims & leave knowing you look damn good.</p>
     </div>
+
+    <br />
+    <br />
+
 
     <section class="container">
     <div class="columns">
@@ -45,7 +53,7 @@
       </div>
 
       <div class="column is-4">
-        <div class="card">
+        <div class="">
           <div class="card-image has-text-centered">
               <i class="fas fa-id-card fa-10x has-text-info"></i>
           </div>
@@ -60,7 +68,7 @@
       </div>
 
       <div class="column is-4">
-        <div class="card">
+        <div class="">
           <div class="card-image has-text-centered">
               <i class="fas fa-cut fa-10x has-text-info"></i>
           </div>
@@ -75,7 +83,8 @@
       </div>
     </div>
     
-    
+    <br />
+
     <section class="container box">
         <div class="columns">
             <div class="column">

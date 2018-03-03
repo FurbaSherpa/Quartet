@@ -60,8 +60,9 @@
     </asp:ContentPlaceHolder>
    
   </form>
-  <footer class="footer is-fixed-bottom" style="background-color: #CF000F;"> 
+  <footer class="footer is-fixed-bottom" style="background-color: #fff;"> 
     <div class="container">
+        <hr />
       <div class="content has-text-centered has-text-white">
         <p><strong>&copy; Quartet 2018</strong></p>
          <p><strong>Made By:</strong><a href="https://github.com/mosuswalks"> Mohamed Abdi | 100-649-804</a></p>
