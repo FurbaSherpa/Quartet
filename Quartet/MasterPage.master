@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -19,7 +21,7 @@
           <nav class="navbar">
             <div class="container">
               <div class="navbar-brand">
-                <a class="navbar-item is-info" href="/home"><i class="fas fa-cut"></i> &nbsp;Quartet</a>
+                <a class="navbar-item is-info" href="/home"><i class="fas fa-cut" style="color: #CF000F;"></i> &nbsp;Quartet</a>
                 <span class="navbar-burger burger" data-target="navbarMenu">
                   <span></span>
                   <span></span>
@@ -58,9 +60,9 @@
     </asp:ContentPlaceHolder>
    
   </form>
-  <footer class="footer is-fixed-bottom"> 
+  <footer class="footer is-fixed-bottom" style="background-color: #CF000F;"> 
     <div class="container">
-      <div class="content has-text-centered">
+      <div class="content has-text-centered has-text-white">
         <p><strong>&copy; Quartet 2018</strong></p>
          <p><strong>Made By:</strong><a href="https://github.com/mosuswalks"> Mohamed Abdi | 100-649-804</a></p>
         <p>

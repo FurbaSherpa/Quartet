@@ -6,11 +6,11 @@
 
     <section class="hero is-large is-bold header-image" style="background-image: url(ear_fade.jpg); background-size: cover; background-repeat: no-repeat; background-position: top;" >
         <div class="hero-body">
-              <div class="container has-text-right">
-                <h1 class="title is-size-1" style="color: orange;"> <!--REMOVE STYLING LATER -->
+              <div class="container has-text-right animated fadeInDown" style="animation-delay: 500ms;animation-duration: 3s">
+                <h1 class="title is-size-1 has-text-weight-bold" style="color: #CF000F;"> <!--REMOVE STYLING LATER -->
                     About Us
                 </h1>
-                <h2 class="subtitle has-text-info">
+                <h2 class="subtitle is-size-1 has-text-info has-text-weight-light"">
                     Everything About Us.
                 </h2>
               </div>
@@ -22,6 +22,23 @@
           <span class="tag is-primary">New</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
     </div>
+
+   <section class="section" style="padding-bottom: 5px;">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8 is-offset-2" >
+                    <article class="message is-info" style="background-color: transparent; margin-bottom: 30px;">
+                        <div class="message-body">
+                            <p class="title has-text-centered">
+                                A few things about us
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="container">
         <div class="columns">
